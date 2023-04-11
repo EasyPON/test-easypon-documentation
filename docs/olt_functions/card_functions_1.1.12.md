@@ -1,6 +1,6 @@
 # 😇 card\_functions\_1.1.12
 
-{% embed url="https://docs.google.com/spreadsheets/d/1cFcqeUj5TI1l3M6U-OpCDPWEajFcb6XLxGKF6tYi2Vw/edit?usp=sharing" %}
+{% embed url="https://docs.google.com/spreadsheets/d/1DX-t9YWaNxk-rn0ksSemXYzEk2UtONYa62HaqzfoI6c/edit?usp=sharing" %}
 
 | Unnamed: 0                                | BdcomP3310BEponCard | BdcomP3310CEponCard | C220EponCard | C300V1EponCard | C300V1GponCard | C300V2EponCard | C300V2GponCard | C320GponCard | C320V2EponCard | C320v2GponCard |
 | ----------------------------------------- | ------------------- | ------------------- | ------------ | -------------- | -------------- | -------------- | -------------- | ------------ | -------------- | -------------- |
