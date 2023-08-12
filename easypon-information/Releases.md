@@ -34,18 +34,13 @@
 
 ---
 ## v2.2.2 - 2023-05-01
-Changes:
-* Merge branch 'stg' into 'master' (c869301)
-* Stg (5070bd3)
-* Merge branch 'EP-000/add_action_permissions' into 'master' (acdb91f)
+
 ---
 ## v2.2.0 - 2023-04-27
 
 ---
 ## v2.2.1 - 2023-04-27
-Changes:
-* "Merge branch 'stg' into 'master' (ed310bd)
-* Fix update onu on ZTE GPON (0b33d05)"
+
 ---
 ## v2.1.1 - 2023-04-27
 
