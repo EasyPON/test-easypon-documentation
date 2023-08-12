@@ -1,14 +1,14 @@
 # Changelog
 
 ## v2.3.10 - 2023-08-07
-Changes:
+#### Changes:
 * Merge branch 'stg' into 'master' (8ab2622)
 * Stg (8576680)
 * Merge branch 'EP-000/remove_author_from_config_on_the_onu_autore_cherry_pick' into 'master' (86a7139)
 * remove author from config creation when using jwt stateless authentication (ee53662)
 ---
 ## v2.3.9 - 2023-07-24
-Changes:
+#### Changes:
 * fix retry attempts to send command on the onu registration (f710735)
 * Merge branch 'EP-1192/change_balance_info_in_license_to_user_address' into 'stg' (1100912)
 * Resolve EP-1192 "/change balance info in license to user address" (999df88)
@@ -31,11 +31,11 @@ Changes:
 * Merge branch 'stg' into 'master' (ccc46c9)
 ---
 ## v2.3.8 - 2023-07-13
-Changes:
+#### Changes:
 * Empty-Commit (cff5d0f)
 ---
 ## v2.3.7 - 2023-07-12
-Changes:
+#### Changes:
 * Merge branch 'stg' into 'master' (82c2450)
 * refactor (d3c300e)
 * Merge branch 'EP-1115/new_statuses_for_building' into 'stg' (6c33c8f)
@@ -60,7 +60,7 @@ Changes:
 * switch on/off admin status on port (0a3eb17)
 ---
 ## v2.3.6 - 2023-07-04
-Changes:
+#### Changes:
 * Merge branch 'EP-000/add_redoc_schema' into 'stg' (f79194b)
 * Revert "fix BDCOM olt snmp protocol connection check and adding new one" (757e309)
 * Revert "fix BDCOM olt snmp protocol connection check and adding new one" (6a6bbf3)
@@ -103,7 +103,7 @@ Changes:
 * fix BDCOM olt snmp protocol connection check and adding new one (466082d)
 ---
 ## v2.3.5 - 2023-06-21
-Changes:
+#### Changes:
 * Merge branch 'stg' into 'master' (44d843c)
 * Merge branch 'EP-000/fix_zte_220_onu_registration' into 'stg' (7411535)
 * generate title for log entry (f00af8e)
@@ -120,7 +120,7 @@ Changes:
 
 ---
 ## v2.3.2 - 2023-06-16
-Changes:
+#### Changes:
 * Merge branch 'stg' into 'master' (b1503a7)
 * Merge branch 'EP-000/update_onu_main_info_on_sync' into 'stg' (465513b)
 * update main onu info on sync and refresh from db (55888cb)
@@ -148,7 +148,7 @@ Changes:
 * fix onu port migration (150f665)
 ---
 ## v2.3.1 - 2023-06-13
-Changes:
+#### Changes:
 * Exclude from map building empty buildings (9ca4343)
 * Merge branch 'stg' into 'master' (15ea910)
 * Merge branch 'EP-000/fix_mac_assigment_in_userside_integration' into 'stg' (60f170b)
@@ -225,7 +225,7 @@ Changes:
 * logout user after deactivating (4eca60d)
 ---
 ## v2.3.0 - 2023-05-18
-Changes:
+#### Changes:
 * Merge branch 'stg' into 'master' (e11a482)
 * Rename some settings (68bbc2e)
 * Merge branch 'master' into stg (dd0d43a)
@@ -284,32 +284,32 @@ Changes:
 * Fix reboot on huawei (4a368e4)
 ---
 ## v2.2.2 - 2023-05-01
-Changes:
+#### Changes:
 * Merge branch 'stg' into 'master' (c869301)
 * Stg (5070bd3)
 * Merge branch 'EP-000/add_action_permissions' into 'master' (acdb91f)
 * Created permission for custom onu action. (4a8fded)
 ---
 ## v2.2.0 - 2023-04-27
-Changes:
+#### Changes:
 * Release v2.1.1 (982ac49)
 * Update .gitlab-ci.yml file (a2e4a18)
 * Merge branch 'stg' into 'master' (c32a656)
 * Fix problem with compiled version (cb893d1)
 ---
 ## v2.2.1 - 2023-04-27
-Changes:
+#### Changes:
 * "Merge branch 'stg' into 'master' (ed310bd)
 * Fix update onu on ZTE GPON (0b33d05)"
 ---
 ## v2.1.1 - 2023-04-27
-Changes:
+#### Changes:
 * Update .gitlab-ci.yml file (a2e4a18)
 * Merge branch 'stg' into 'master' (c32a656)
 * Fix problem with compiled version (cb893d1)
 ---
 ## v2.1.0 - 2023-04-27
-Changes:
+#### Changes:
 * Updated install instructions (25e7fda)
 * Merge branch 'stg' into 'master' (07e33df)
 * Merge branch 'EP-000/fix_template_variable_migration' into 'stg' (99f52d2)
@@ -394,14 +394,14 @@ Changes:
 
 ---
 ## v2.0.2 - 2023-03-29
-Changes:
+#### Changes:
 * Merge branch 'stg' (cc9940f)
 * Update release-it package (da53d73)
 * Merge remote-tracking branch 'origin/master' (af56bc3)
 * Add artifacts (7b8e461)
 ---
 ## v2.0.1 - 2023-03-29
-Changes:
+#### Changes:
 * Merge branch 'stg' (8466619)
 * Done with cicd (e6735b6)
 * Merge branch 'stg' into 'master' (7bcda83)
