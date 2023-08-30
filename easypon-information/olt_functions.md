@@ -1,5 +1,5 @@
 # Table of functionality by olts
-EP version: 2.3.2
+EP version: 2.3.8
 
 |                                | ZteC300v2   | ZteC320v2   | ZteC220   | ZteC300   | ZteC320   | HuaweiMa5608tOlt   | BdcomP3310BOlt   | BdcomP3310COlt   |
 |--------------------------------|-------------|-------------|-----------|-----------|-----------|--------------------|------------------|------------------|

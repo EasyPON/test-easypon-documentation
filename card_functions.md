@@ -1,5 +1,5 @@
 # Table of functionality by cards
-EP version: 2.3.8
+EP version: 2.3.2
 
 |                                           | ZTE C300 V1 GPON Card   | ZTE C300 V2 GPON Card   | ZTE C320 V1 GPON Card   | ZTE C320 V2 GPON Card   | ZTE C220 EPON Card   | ZTE C300 V1 EPON Card   | ZTE C300 V2 EPON Card   | ZTE C320 V2 EPON Card   | BDcom P3310B EPON Card   | BDcom P3310C EPON Card   |
 |-------------------------------------------|-------------------------|-------------------------|-------------------------|-------------------------|----------------------|-------------------------|-------------------------|-------------------------|--------------------------|--------------------------|

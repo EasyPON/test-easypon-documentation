@@ -2,18 +2,19 @@
 
 ## v2.3.10 - 2023-08-07
 #### Changes:
+* Stg (8576680)
 * remove author from config creation when using jwt stateless authentication (ee53662)
 ---
 ## v2.3.9 - 2023-07-24
 #### Changes:
 * fix retry attempts to send command on the onu registration (f710735)
 * Resolve EP-1192 "/change balance info in license to user address" (999df88)
-* fix onu auto registration on 220 zte olts (c18a636)
 * Resolve EP-1184 "/onu autoregistration" (e3b86f2)
 * do not count deleted onus for a building map (4c73cfd)
 * Resolve EP-000 "/added endpoint for external api" (42f26ec)
 * set timeouts for cache keys (2f8247e)
 * move documentation files to the correct folder (05fd9d0)
+* fix onu auto registration on 220 zte olts (c18a636)
 * fix get onu configs on bdcom olts (467deea)
 ---
 ## v2.3.8 - 2023-07-13
@@ -40,23 +41,8 @@
 ---
 ## v2.3.6 - 2023-07-04
 #### Changes:
-* remove CELERY_ENABLE_REMOTE_CONTROL (71c64b6)
-* description for template module (06aab06)
-* description for onu module (8b5016b)
-* description for olt (6743d77)
-* description for core module (3436382)
-* fixed cython compilation (f4d90b5)
-* rename logger (0603e74)
-* add created permission to the admin group member as user permission (88a236b)
-* assign new permissions to the admin group (516a7c5)
-* check client exists with a billing key (2fb47ef)
-* limited max retries and added timeout (c1dc2f8)
-* limited max retries and added timeout (3747b37)
-* method for send and receive commands with retry (d0dd251)
-* fix BDCOM olt snmp protocol connection check and adding new one (4e9b45b)
 * Revert "fix BDCOM olt snmp protocol connection check and adding new one" (757e309)
 * Revert "fix BDCOM olt snmp protocol connection check and adding new one" (6a6bbf3)
-* fix BDCOM olt snmp protocol connection check and adding new one (466082d)
 * fix BDCOM olt snmp protocol connection check and adding new one (78ac96a)
 * forbid celery remote control (ea4013a)
 * try to fix redis failures (0bc7bac)
@@ -67,6 +53,22 @@
 * check connection with user credentials on retry (1107142)
 * check userside connection with data from user of from settings (fe6a3a3)
 * Resolve EP-1129 "/enabale us sync and google auth flag" (d0b2269)
+* fixed cython compilation (f4d90b5)
+* remove CELERY_ENABLE_REMOTE_CONTROL (71c64b6)
+* include migrations (1447063)
+* description for template module (06aab06)
+* description for onu module (8b5016b)
+* description for olt (6743d77)
+* description for core module (3436382)
+* rename logger (0603e74)
+* add created permission to the admin group member as user permission (88a236b)
+* assign new permissions to the admin group (516a7c5)
+* check client exists with a billing key (2fb47ef)
+* limited max retries and added timeout (c1dc2f8)
+* limited max retries and added timeout (3747b37)
+* method for send and receive commands with retry (d0dd251)
+* fix BDCOM olt snmp protocol connection check and adding new one (4e9b45b)
+* fix BDCOM olt snmp protocol connection check and adding new one (466082d)
 ---
 ## v2.3.5 - 2023-06-21
 #### Changes:
@@ -103,6 +105,7 @@
 ---
 ## v2.3.1 - 2023-06-13
 #### Changes:
+* Exclude from map building empty buildings (9ca4343)
 * fix mac assigment in userside integration (537c7be)
 * update description (ce9aa08)
 * added changed data to the title of log entry (3294376)
@@ -129,7 +132,6 @@
 * Resolve EP-000 "/add onu list to building" (90f63d2)
 * Resolve EP-1057 "/userside integration settings" (a8250c8)
 * Fix filtering in map building (7751d9e)
-* Exclude from map building empty buildings (9ca4343)
 * Add celery integration to sentry sdk (a9cf1e3)
 * Change crontab of userside sync (507c2a2)
 * Resolve EP-1059 "/add permission to config endpoint" (03db858)
@@ -177,26 +179,27 @@
 * Log can handle the entire onu history. After onu deletion, it does not remove from db. (85dcc5a)
 * Add version checker for huawei (56a90d0)
 * Change commands for show config in huawei (a3d353a)
-* Fix reboot on huawei (4a368e4)
 * Fix full update onu on huawei (cab7422)
 * Add support of Huawei MA5608T. (9540005)
 * make google keys not required (022017f)
 * It was improved receiving latest release information. Now get the version that matches client requirements. (267121d)
 * Show notification for admin users if a new version of EeasyPON was released. (a1e4374)
+* Fix reboot on huawei (4a368e4)
 ---
 ## v2.2.2 - 2023-05-01
 #### Changes:
+* Stg (5070bd3)
 * Created permission for custom onu action. (4a8fded)
----
-## v2.2.1 - 2023-04-27
-#### Changes:
-* Fix update onu on ZTE GPON (0b33d05)
 ---
 ## v2.2.0 - 2023-04-27
 #### Changes:
 * Release v2.1.1 (982ac49)
 * Update .gitlab-ci.yml file (a2e4a18)
 * Fix problem with compiled version (cb893d1)
+---
+## v2.2.1 - 2023-04-27
+#### Changes:
+* Fix update onu on ZTE GPON (0b33d05)"
 ---
 ## v2.1.1 - 2023-04-27
 #### Changes:
@@ -205,6 +208,7 @@
 ---
 ## v2.1.0 - 2023-04-27
 #### Changes:
+* Updated install instructions (25e7fda)
 * Fix install issue with DB migration. (03db83c)
 * Fix problem with infinity get all onu on some ZTE (6c6e247)
 * Fix problem on c320 with "No such instance" on get onu status (60459eb)
@@ -219,7 +223,6 @@
 * New macros for retrieving onu port number (8bad61b)
 * A more informative description of the Excel exported file. (f348f53)
 * Added to background task that scans all "onus" on the olt more detailed information about each record.<br> Implemented a counter to keep track of the total number of ONUs found when scanning them on OLT. (3792717)
-* Updated install instructions (25e7fda)
 * Retrieve Google client id for oauth2 authentication. (79ebeb7)
 * Add redis to ci/cd (dffe609)
 * Add redis to ci/cd (103f6e5)
@@ -243,7 +246,6 @@
 * Added ability for users to save and retrieve filter parameters. (be73aef)
 * Added installation instructions for EasyPON. (496bf5e)
 * Improve ONU logging to include information on retrieval and applying configuration results: success and failure. (bcefcc4)
-* Resolve EP-899 "/merge migrations" (7142e3b)
 * Implement access control for dedicated source with new 'Can view onu duplicates' permission (f5ae1d0)
 * add celery-expoter binary adn systemd service (49e2c1a)
 * Simplify the OLT registration process with the minimal required info: IP, login, pass, and olt type (30c8973)
@@ -271,8 +273,3 @@
 * fix outdated checking (750abc7)
 * add latest ep release endpoint (f3eab1f)
 * decompress data in license check request (5af9d9b)
----
-## v2.0.0 - 2023-03-29
-
----
-## v1.0.0 - 2023-03-28
