@@ -1,8 +1,7 @@
 # Changelog
 
 ## v2.3.14 - 2023-09-22
-#### Changes:
-* Fix installation on deb
+
 ---
 ## v2.3.13 - 2023-09-22
 
