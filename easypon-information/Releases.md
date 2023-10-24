@@ -19,8 +19,7 @@
 * Stg (8576680)
 ---
 ## v2.3.9 - 2023-07-24
-#### Changes:
-* Merge branch 'stg' into 'master' (ccc46c9)
+
 ---
 ## v2.3.8 - 2023-07-13
 
