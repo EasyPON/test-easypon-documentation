@@ -1,7 +1,8 @@
 # Changelog
 
 ## v2.3.18 - 2024-02-01
-
+#### Changes:
+* QA Changelog QA
 ---
 ## v2.3.17 - 2024-01-16
 
